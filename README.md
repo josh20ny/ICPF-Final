@@ -10,27 +10,27 @@ Visualization of the Tumor Growth over 20 days
 
 # Day 10
 
-![Image](https://github.com/josh20ny/ICPF-Final/blob/master/results/Part%201/PlotAtDay10.png)
+![Image](https://github.com/josh20ny/ICPF-Final/blob/master/results/Data%20Visualization%20(Part%201)/PlotAtDay10.png)
 
 # Day 12
 
-![Image](https://github.com/josh20ny/ICPF-Final/blob/master/results/Part%201/PlotAtDay12.png)
+![Image](https://github.com/josh20ny/ICPF-Final/blob/master/results/Data%20Visualization%20(Part%201)/PlotAtDay12.png)
 
 # Day 14
 
-![Image](https://github.com/josh20ny/ICPF-Final/blob/master/results/Part%201/PlotAtDay14.png)
+![Image](https://github.com/josh20ny/ICPF-Final/blob/master/results/Data%20Visualization%20(Part%201)/PlotAtDay14.png)
 
 # Day 16
 
-![Image](https://github.com/josh20ny/ICPF-Final/blob/master/results/Part%201/PlotAtDay16.png)
+![Image](https://github.com/josh20ny/ICPF-Final/blob/master/results/Data%20Visualization%20(Part%201)/PlotAtDay16.png)
 
 # Day 18
 
-![Image](https://github.com/josh20ny/ICPF-Final/blob/master/results/Part%201/PlotAtDay18.png)
+![Image](https://github.com/josh20ny/ICPF-Final/blob/master/results/Data%20Visualization%20(Part%201)/PlotAtDay18.png)
 
 # Day 20
 
-![Image](https://github.com/josh20ny/ICPF-Final/blob/master/results/Part%201/PlotAtDay20.png)
+![Image](https://github.com/josh20ny/ICPF-Final/blob/master/results/Data%20Visualization%20(Part%201)/PlotAtDay20.png)
 
 ---
 
