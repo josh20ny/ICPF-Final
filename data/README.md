@@ -1,1 +1,1 @@
-Download data from his website and store into this folder
+**cells.mat** is the data file downloaded from his website and is used to for completing this project.
