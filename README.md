@@ -128,3 +128,7 @@ end
 The 3 specific values that were required in order for this best fit line to be modeled can be found in the **fileWithParams.txt** file. In there are these three values:
 
 `Lamda: 8.0729, C-Value: 0.1102, Sigma: 0.17728`
+
+# main.m
+
+This script runs the entire project
