@@ -4,13 +4,31 @@ This is the Final project for COE 301 Introduction to Computer Programming Fall 
 
 ---
 
-# Note
+# Note in order to run properly with main.m
 
 In order to make sure the code runs properly, make sure that whichever folder you are in when you run main is organized as follows:
 
-0
+![Image](https://github.com/josh20ny/ICPF-Final/blob/master/Organization%20Schematics.png)
 
 You can pull all of the source codes from each of the files in **src** and the **cells.mat** from the **data** file.
+
+# Main
+
+The entire project is run through this script, main.m:
+
+```MATLAB
+
+%Runs the scripts that plots the data into multiple images 
+for n = 10:2:20
+    run(['GraphAt' num2str(n) 'Days.m']);
+end
+
+%Runs the script that plots the graph with error bars
+run('errorInCellCount.m');
+
+%Runs the script that plots the Gompertzian fit along side the observed graph
+run('mathematicalModel.m');
+```
 
 # Data Reduction and Visualization (Darcey Long)
 
@@ -235,7 +253,7 @@ saveas(gcf, 'Cell Error.png');
 
 # Graph
 
-
+![Image](https://github.com/josh20ny/ICPF-Final/blob/master/results/Error%20(Part%202)/Cell%20Error.png)
 
 ---
 
@@ -329,7 +347,3 @@ end
 The 3 specific values that were required in order for this best fit line to be modeled can be found in the **fileWithParams.txt** file. In there are these three values:
 
 `Lamda: 8.0729, C-Value: 0.1102, Sigma: 0.17728`
-
-# main.m
-
-This script runs the entire project
