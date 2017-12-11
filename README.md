@@ -6,11 +6,13 @@ This is the Final project for COE 301 Introduction to Computer Programming Fall 
 
 # Note in order to run properly with main.m
 
-In order to make sure the code runs properly, make sure that whichever folder you are in when you run main is organized as follows:
+In order to make sure the code runs properly, make sure that whichever folder you are in, when you run **main.m**, is organized as follows:
 
 ![Image](https://github.com/josh20ny/ICPF-Final/blob/master/Organization%20Schematics.png)
 
 You can pull all of the source codes from each of the files in **src** and the **cells.mat** from the **data** file.
+
+---
 
 # Main
 
