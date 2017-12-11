@@ -1,6 +1,4 @@
-clear all;
 load('cells.mat');
-%cant figure out how to get second time%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % FIGURE SPECIFICATIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -111,17 +109,6 @@ for irow = nrow:-1:1
      subPlot.Title.String = ['z = ', num2str(sliceNumber)];
      subPlot.CLim = colorLimits;
      
-        % THE REST OF THIS CODE SHOULD BE ADDED BY YOU:
-        % Here you put the image slice that you want to plot (call imagesc() with the appropriate input data slice)
-        % then hold on to this figure.
-        % Now call the relevant properties of subplot to modify it properties, for example,
-        % to ensure that whenever the subplot is NEITHER in the first columns of plots
-        % NOR in the bottom row of subplots in the figure, then its XTickLabels and YTickLabels
-        % are set to null value []. For this, you will need to write an if-block.
-        % Also add the title for each subplot here using the subplot property subPlot.Title.String
-        % Finally set the color limits of the subplot to the proper range by subPlot.CLim = colorLimits
-        % where the variable colorLimits is defined in the above lines when we created the colorbar.
-        % END OF YOUR CODE ADDITIONS
     end
 end
 

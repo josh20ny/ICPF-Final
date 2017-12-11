@@ -12,6 +12,7 @@ errArray = zeros(8, 1);
 errArray(1) = 0;
 params = [10, 0.1, 1]; % initial values
 tint = 0:.1:25;
+figure();
 
 GompGrowth = @(t, N, lamda, c) N*exp(lamda*(1-exp(-c*t)));
 
@@ -23,10 +24,7 @@ for k = 1:7
         if(~isempty(B))
             for m = 1:length(B)
                 Array = B{m};
-                disp([num2str(k) ' ' num2str(n)]);
-                disp(Array)
                 for x = 1:length(Array) - 1
-                    disp(totalCellError)
                     totalCellError = totalCellError + cells(Array(x, 1), Array(x, 2), n, k);
                 end
             end
