@@ -1,9 +1,5 @@
 % Loading the experiment Data
-cd ../../data;
-
 load('cells.mat');
-
-cd ../src/'error (Part 2)';
 
 %initilizing an array for the time, total Cells, and error in the Cell
 %Growth
@@ -42,6 +38,7 @@ disp(totalCells{2});
 disp(errorArray);
 
 % Plots the data and error
+figure();
 errorbar(totalCells{1},totalCells{2},errorArray, 'b', 'linewidth' ... 
     , 4, 'MarkerSize', 32);
 
@@ -50,7 +47,5 @@ xlabel('Time [Days]');
 ylabel('Experimental Tumor Cell Count');
 legend('Experimental Data', 'Location', 'Northwest')
 box on;
-
-cd ../../results/'Error (Part 2)'
 
 saveas(gcf, 'Cell Error.png');
