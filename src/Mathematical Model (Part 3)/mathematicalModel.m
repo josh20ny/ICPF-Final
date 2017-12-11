@@ -1,4 +1,8 @@
+cd ../../data;
+
 load('cells.mat');
+
+cd ../src/'error (Part 2)';
 global timeArray dataVals;
 dataVals = zeros(8, 1);
 dataVals(1) = 100000;
@@ -32,6 +36,7 @@ for k = 1:7
     errArray(k + 1) = totalCellError/2;
     totalCellError = 0;
 end
+disp(errArray)
 
 errorbar(timeArray, dataVals, errArray, 'b.-', 'linewidth', 3, 'MarkerSize', 32, 'DisplayName', 'Experimental Data');
 hold on;
