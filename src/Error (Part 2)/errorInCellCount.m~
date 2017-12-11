@@ -1,16 +1,13 @@
-% Loading the experiment Data
+ %
 cd ../../data;
 
 load('cells.mat');
 
 cd ../src/'error (Part 2)';
 
-%initilizing an array for the time, total Cells, and error in the Cell
-%Growth
 totalCells = {zeros(1 + length(cells(1,1,1,:)),1),zeros(1 + length(cells(1,1,1,:)),1)};
 errorArray = zeros( (length(cells(1, 1, 1, :)) + 1), 1);
 
-%Sets the days, sums the total cells, and sums the error cells
 for day = 1:length(totalCells{1})
     if day == 1
         totalCells{1}(day) = day;
@@ -36,12 +33,10 @@ for day = 1:length(totalCells{1})
     cellError = 0;
 end
 
-% displays the data to be plotted
 disp(totalCells{1});
 disp(totalCells{2});
 disp(errorArray);
 
-% Plots the data and error
 errorbar(totalCells{1},totalCells{2},errorArray, 'b', 'linewidth' ... 
     , 4, 'MarkerSize', 32);
 
